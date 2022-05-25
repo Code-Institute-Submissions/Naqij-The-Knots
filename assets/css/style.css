@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100&display=swap');
+
+/* font style for "The knots" Beau Rivage */
+
+/* font style for the "nav" Roboto*/
+
+/* font style for the "heading" Roboto Condensed */
+
+/* font style for the "paragraph etc" Roboto Flex */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Beau Rivage;
+    font-weight: 30px;
+}
+
+header {
+    border: 3px solid;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+header > h1 {
+    float: left;
+    font-family: Beau Rivage;
+}
+
