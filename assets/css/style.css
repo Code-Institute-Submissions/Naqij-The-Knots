@@ -96,7 +96,22 @@ footer {
     border-top: 3px solid;
     left: 0;
     bottom: -200px;
-    width:100%;
+    width: 100%;
     position: absolute;
     text-align: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 170%;
+    margin: 3%;
+    padding: 1%;
+    color: #3a3a3a;
 }
