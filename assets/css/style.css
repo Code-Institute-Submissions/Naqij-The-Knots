@@ -57,13 +57,27 @@ a img {
     color: black;
 }
 
+#menu a:hover {
+    border: 1px solid #000;
+}
+
 /* section image and logo */
 
-section {         
-    background-color: none;
-    width: 100%;
+#left-box {         
+    background-color:antiquewhite; 
+    width: 50%;
     height: 600px;
     margin-top: 100px;
+    float: left;
+}
+
+#right-box {         
+    background-color:azure;
+    width: 50%;
+    height: 600px;
+    margin-top: 100px;
+    float: right;
+    position: sticky;
 }
 
 .left {
@@ -71,7 +85,8 @@ section {
     height: 600px;
     float: left;
     padding-left: 3%;    
-    filter:grayscale(50%);
+    filter: grayscale(50%);
+    position: sticky;
 }
 
 .right {
@@ -93,8 +108,8 @@ h2 {
 }
 
  .right h2 {
-    border: 3px solid #000;
-    width: 250px;
+    border: 20px solid #000;
+    width: 450px;
     height: 300px;
 }
 
@@ -105,7 +120,7 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: 70px;
-    position: inherit;
+    position: initial;
 }
 
 .social-networks {
