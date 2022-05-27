@@ -17,11 +17,13 @@
 body {
     font-family: Beau Rivage, sans-serif;
     font-weight: 30px;
+    
 }
 
 header {
     border-bottom: 3px solid;
     font-size: 20px;
+    width: 100%;
 }
 
 #logo {
@@ -33,10 +35,9 @@ header {
     float: right;
     font-size: 30px;
     margin-top: 10px;
-    margin-bottom: 50px;
     width: 100%;
     height: 40px;
-    
+    background-color: none;
 }
 
 
@@ -44,45 +45,46 @@ header {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    background-color: none;
 }
 
-section {     
-    overflow: hidden;
-    background-color: aqua;
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+section {         
+    background-color: none;
     width: 100%;
-    height: auto;
+    height: 600px;
+    margin-top: 100px;
 }
 
-.left {    
-    margin-top: 0px;
-    margin-bottom: auto;
-    width: 700px;
-    height: auto;
+.left {
+    width: auto;
+    height: 600px;
     float: left;
-    padding-left: 5%;
-  }
-
-  h2 {
-    font-size: 70px;
-    font-family: Beau Rivage, sans-serif;
-    letter-spacing: 4px;
-    float: right;
-    padding-top: 20px;
-    padding-left: 980px;
-    position: absolute;
+    padding-left: 3%;
 }
 
-.right {    
-    margin-top: 150px;
+.right {
     width: 100px;
     height: auto;
-    padding-left: 300px;
+    float: right;
     position: relative;
-  }
+    top: 200px;
+    right: 270px;
+}
 
-img {
-    
-  }
+h2 {
+    font-size: 70px;
+    height: auto;
+    float: right;
+    position: relative;    
+    top: 300px;
+    right: 100px;
+}
+
 
 /*#image {
     margin-top: 100px;
@@ -94,15 +96,15 @@ img {
 
 footer {
     border-top: 3px solid;
-    left: 0;
-    bottom: -200px;
     width: 100%;
-    position: absolute;
     text-align: center;
+    margin-top: 70px;
+    position: inherit;
 }
 
 .social-networks {
     text-align: center;
+    position: relative;
 }
 
 .social-networks > li {
@@ -111,7 +113,7 @@ footer {
 
 .social-networks i {
     font-size: 170%;
-    margin: 3%;
-    padding: 1%;
+    margin-top: 30px;
+    padding-inline: 5%;
     color: #3a3a3a;
 }
