@@ -64,15 +64,16 @@ a img {
 /* section image and logo */
 
 #left-box {         
-    background-color:antiquewhite; 
+    background-color: none; 
     width: 50%;
     height: 600px;
     margin-top: 100px;
     float: left;
+    position: sticky;
 }
 
 #right-box {         
-    background-color:azure;
+    background-color: none;
     width: 50%;
     height: 600px;
     margin-top: 100px;
@@ -82,36 +83,32 @@ a img {
 
 .left {
     width: auto;
-    height: 600px;
+    height: 100%;
     float: left;
     padding-left: 3%;    
     filter: grayscale(50%);
-    position: sticky;
+    position: inherit;
 }
 
 .right {
     width: 100px;
     height: auto;
     float: right;
-    position: relative;
+    position: absolute;
     top: 200px;
-    right: 290px;
+    right: 320px;
 }
 
 h2 {
     font-size: 100px;
     height: auto;
     float: right;
-    position: relative;    
-    top: 300px;
-    right: 50px;
+    position: absolute;    
+    top: 350px;
+    right: 200px;
 }
 
- .right h2 {
-    border: 20px solid #000;
-    width: 450px;
-    height: 300px;
-}
+
 
 /* Footer */
 
@@ -119,8 +116,7 @@ footer {
     border-top: 3px solid;
     width: 100%;
     text-align: center;
-    margin-top: 70px;
-    position: initial;
+    margin-top: 800px;
 }
 
 .social-networks {
