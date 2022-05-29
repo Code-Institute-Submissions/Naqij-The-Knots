@@ -63,43 +63,43 @@ a img {
 
 /* section image and logo */
 
-#left-box {         
-    background-color: none; 
-    width: 50%;
-    height: 600px;
-    margin-top: 100px;
-    float: left;
-    position: sticky;
+aside {         
+    background-color:aliceblue; 
+    width: 60%;
+    height: 500px;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+}
+
+aside > img {
+    width: 700px;
 }
 
 #right-box {         
-    background-color: none;
-    width: 50%;
-    height: 600px;
-    margin-top: 100px;
-    float: right;
-    position: sticky;
-}
-
-.left {
-    width: auto;
-    height: 100%;
-    float: left;
-    padding-left: 3%;    
-    filter: grayscale(50%);
-    position: inherit;
-}
-
-.right {
-    width: 100px;
+    background-color:antiquewhite;
+    width: 40%;
     height: auto;
+    margin-top: 100px; 
+    float: right;    
+}
+
+#left-box {
+    width: 30%;
+    height: auto;
+    padding-left: 3%;    
+    filter: grayscale(50%);    
+}
+
+aside > #right-box > .right {
+    width: 40%;
+    height: 700px;
     float: right;
     position: absolute;
     top: 200px;
     right: 320px;
 }
 
-h2 {
+#right-box > h2 > .right {
     font-size: 100px;
     height: auto;
     float: right;
@@ -159,8 +159,8 @@ h4 {
 
 img {
     width: 50%;
-    height: auto;
-    background:    
+    height: auto;  
+    right: 50%;
 }
 
 .contact-us {
