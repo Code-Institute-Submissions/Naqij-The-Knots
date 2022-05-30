@@ -99,6 +99,23 @@ aside > img {
     background-color: #45a049;
 }*/
 
+#cover-text{
+   
+    font-size: 80px;
+    width: 500px;
+    height: 400px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
 #left-box {
     width: 800px;
     height: 700px;
