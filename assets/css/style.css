@@ -79,40 +79,14 @@ aside > img {
     display: inline;
 }
 
-/*#right-box {         
-    background-color:#45a049;
-    width: 50%;
-    height: 500px;
-    margin-top: 200px; 
-    margin-bottom: 100px;
-    float: right;    
-    display: block;
-    position: relative;
-}*/
-
-/*#right-box {
-    width: 30%;
-    height: 600px;
-    float: right;
-    margin-top: 5%;
-    margin: 5% 5% 5% 5%;
-    background-color: #45a049;
-}*/
-
-#cover-text{
-   
+#container {   
     font-size: 80px;
-    width: 500px;
+    width: 420px;
     height: 400px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
+    padding: 10px;
+    background-color: none;
     bottom: 30px;
     right: 150px;
-
     position: absolute;
 }
 
@@ -124,23 +98,22 @@ aside > img {
     position: relative;
 }
 
-#right-box .logo {
-    width: 150px;
+#right-box img {
+    width: 200px;
     height: auto;
     float: right;
     position: absolute;
-    bottom: 600px;
-    top: 350px;
-    right: 250px;
+    top: 50px;
+    left: 130px;
 }
 
-#right-box > h2 {
-    font-size: 80px;
+#right-box h2 {
+    font-size: 100px;
     height: auto;
     float: right;
     position: absolute;    
-    top: 550px;
-    right: 200px;
+    bottom: 0px;
+    left: 100px;
 }
 
 /* Footer */
