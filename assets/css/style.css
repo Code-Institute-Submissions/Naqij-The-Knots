@@ -166,7 +166,7 @@ h4 {
 .contact-us {
     margin-bottom: 100px;
     color: rgb(0, 0, 0);
-    background-color: none;
+    background-color: gray;
     width: 400px;    
     padding: 30px;
     margin-left: 80px;
@@ -222,9 +222,11 @@ input[type=submit] {
   .macrame6 img {
     height: 600px;
     width: auto;
-    border: none;
+    border: 1px black solid;
     padding-left: 0px; 
     display: inline;
+    float: right;
+    position: absolute;
 }
 
 .macrame6 {   
@@ -235,5 +237,4 @@ input[type=submit] {
     top: 160px;    
     right: 200px;
     position: absolute;
-    float: right;
 }
