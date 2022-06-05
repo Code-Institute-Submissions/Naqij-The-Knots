@@ -165,13 +165,13 @@ h4 {
     background-color: none;
     width: 400px;    
     padding: 30px;
-    margin-left: 80px;
+    margin-left: 200px;
     margin-top: 20px;
 }
 
 .form-section h3 {
     color: #000000;
-    margin: 50px 0 0 50px;
+    margin: 100px 0 0 150px;
 }
 
 input, textarea {
@@ -221,7 +221,7 @@ input[type=submit] {
     height: 600px;
     display: inline;
     background-color: transparent;
-    bottom: 750px;    
+    bottom: 670px;    
     left: 850px;
     position: relative;
 }
