@@ -166,15 +166,16 @@ h4 {
 .contact-us {
     margin-bottom: 100px;
     color: rgb(0, 0, 0);
-    background-color: gray;
+    background-color: none;
     width: 400px;    
     padding: 30px;
     margin-left: 80px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .form-section h3 {
     color: #000000;
+    margin: 50px 0 0 50px;
 }
 
 /*.text-input {
@@ -222,7 +223,7 @@ input[type=submit] {
   .macrame6 img {
     height: 600px;
     width: auto;
-    border: 1px black solid;
+    border: none;
     padding-left: 0px; 
     display: inline;
     float: right;
@@ -232,9 +233,10 @@ input[type=submit] {
 .macrame6 {   
     width: 360px;
     height: 600px;
-    padding: 10px;
+    display: inline;
     background-color: transparent;
-    top: 160px;    
-    right: 200px;
-    position: absolute;
+    bottom: 750px;    
+    left: 850px;
+    position: relative;
 }
+
