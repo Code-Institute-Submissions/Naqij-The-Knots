@@ -16,19 +16,18 @@ html {
     margin: 0;
     padding: 0;
     border: none;
+    max-width: 100%;
 }
 
 body {
     font-family: Beau Rivage, sans-serif;
     font-weight: 3rem;
-    
 }
 
 header {
     border-bottom: 0.3rem solid;
     font-size: 2rem;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 a img {
@@ -74,56 +73,53 @@ a img {
 
 
 aside > img {
-    width: 85rem;
+    width: 100%;
     height: auto;
     margin: 5% 0 5%;
-    filter: grayscale(60%);
-    position: relative;
-    display: flex;
-    float: left;
+    filter: grayscale(60%); 
+    justify-items: center;
 }
 
-#left-box {
+#start-box {
     width: 85rem;
-    height: 30%;
     margin: 50px 0 50px 50px;
-    background-color: none; 
-    position: relative; 
+    background-color: gray; 
+     
     float: left;
     display: flex;
+    overflow: hidden;
 }
 
 #container {   
     width: 40rem;
-    height: 35rem;
+    height: 30rem;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.7);
 
     display: inline;
 
-    position: relative;
+    position: absolute;
+    clear: both;
+    top: 40rem;
+    left: 70rem;
     float: right;
-    right: 10rem;
-    top: 23rem;
 }
 
- #right-box img {
-    width: 40%;
-    height: 15rem;
-    position: relative;
-    left: 25%;
-    display: flex;
+ #end-box img {
+    width: 15rem;
+    height: auto;
+    position: relative;    
+    right: 12rem;    
+    display: flexbox;
+    float: right;
 }
 
-#right-box h2 {
+#end-box h2 {
     font-size: 8.5rem;
     height: auto;
-    padding: 0.5rem;
     position: relative;    
-    bottom: 3rem;
-    margin: 30px 10px 0 10px;    
-    padding-left: 7rem;
-    display: flex;
+    right: 5rem;   
+    float: right;
 }
 
 /* styling the "about" page */
@@ -134,7 +130,7 @@ aside > img {
     margin: 70px auto 50px auto;
     background: rgb(255, 255, 255);
     padding: 2rem;
-    clear: both;    
+    clear: both;
 }   
 
 h3 {
@@ -146,7 +142,6 @@ h3 {
 p {
     font-family: Roboto Flex, sans-serif;
     font-size: 2rem;
-    
 }
 
 h4 {
@@ -260,12 +255,48 @@ footer {
         height: 40px;
         background-color: none;
         clear: both;
-    }
-    
+    }    
     
     #menu li {
         list-style-type: none;
         margin-right: 25px;
         background-color: none;
     }
+}
+
+@media screen and (max-width:450px) {
+
+    #container {   
+        width: 40rem;
+        height: 35rem;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+    
+        display: inline;
+    
+        position: absolute;
+        
+        left: 10rem;
+        top: 40rem;
+    }
+    
+     #end-box img {
+        width: 40%;
+        height: 15rem;
+        position: relative;
+        left: 25%;
+        display: inline;
+    }
+    
+    #end-box h2 {
+        font-size: 8.5rem;
+        height: auto;
+        padding: 0.5rem;
+        position: relative;    
+        bottom: 3rem;
+        margin: 30px 10px 0 10px;    
+        padding-left: 7rem;
+        display: flex;
+    }
+    
 }
