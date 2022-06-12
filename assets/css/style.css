@@ -145,6 +145,11 @@ p {
     font-size: 2rem;
 }
 
+#material {
+    text-decoration: none underline;
+    color: inherit;
+}
+
 /* photos*/
 
 .macrame-decor {
@@ -298,7 +303,7 @@ footer {
     }
 
     .macrame6 img {
-        display:none;
+        display: none;
     }
 }
 
