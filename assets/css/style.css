@@ -145,6 +145,36 @@ p {
     font-size: 2rem;
 }
 
+/* photos*/
+
+.macrame-devor {
+    width: 25rem;
+    height: auto;
+    float: left;
+    padding: 2rem;
+}
+
+.wall-hanging2 {
+    width: 25rem;
+    height: auto;
+    float: right;
+    padding: 2rem;
+}
+
+.wall-hanging1 {
+    width: 25rem;
+    height: auto;
+    float: left;
+    padding: 2rem;
+}
+
+.macrame-wings {
+    width: 25rem;
+    height: auto;
+    float: right;
+    padding: 2rem;
+}
+
 /* Form */
 
 
@@ -208,7 +238,7 @@ input[type=submit] {
     padding: 10px;
     background-color: transparent;
     position: absolute;
-    top: 250rem;
+    top: 300rem;
     right: 15rem;
     float: right;
     
