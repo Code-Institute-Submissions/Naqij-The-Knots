@@ -30,43 +30,47 @@ header {
     width: 100%;    
 }
 
-a img {
-    margin: 10px 0 0 30px;
+nav #logo {
     width: 5rem;
     height: auto;
 }
 
-/* nav bar */
+nav {
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    border-bottom: #000 3px solid;
+}
 
-#menu {    
-    letter-spacing: 0.4rem;
-    float: right;
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
     font-size: 3rem;
-    margin: 10px 0 10px 0;
-    width: 100%;
-    height: 4rem;
-    background-color: none;
+    letter-spacing: 0.4rem;
 }
 
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 3rem;
-    background-color: none;
-}
-
-#menu a {
+nav ul li a{
+    color: #000;
     text-decoration: none;
-    color: black;
 }
 
-#menu a:hover {
+nav a:hover {
     border: 1px solid #000;
 }
 
 .active {
     border: 1px solid #000;
+}
+
+#click {
+    display: none;
 }
 
 /* section image and logo */
@@ -181,6 +185,13 @@ p {
 #images:hover {
 	transform: scale(1.05);
 	transition: .5s transform;
+}
+
+nav .menu-botton i{
+    color: #000;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
 }
 
 /* Form */
@@ -307,36 +318,36 @@ footer {
     }
 }
 
-/* For medium screen sizes from 750px wide and down */
+/* For medium to small screen sizes from 600px wide and down */
 
-@media screen and (max-width:750px) {
-    #menu {    
-        letter-spacing: 0.3rem;
+@media screen and (max-width:600px) {
+
+    nav ul {
+        position: absolute;
+        top: 8rem;
+        left: -100%;
+        background: #fff;
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    #click:checked ~ ul {
+        left: 0%;
+    }
+
+    #click:checked ~ .menu-botton i:before{
+        content: "\f141";
+    }
+
+    nav ul li a{
         font-size: 2.5rem;
-        margin: 10px 0 10px 0;
-        width: 100%;
-        height: 3.5rem;
-        background-color: none;
-    }    
-    
-    #menu li {
-        margin-right: 2.5rem;
     }
-    
-    #container {   
-        left: 0;
+
+    nav .menu-botton i{
+        display: block;
     }
-}
-
-@media screen and (max-width:450px) {
-
-    #menu {    
-        letter-spacing: 0.1rem;
-        font-size: 2.2rem;
-        margin: 7px 0 7px 0;
-        width: 100%;
-        height: 3.2rem;
-        background-color: none;
-    }       
-
 }
