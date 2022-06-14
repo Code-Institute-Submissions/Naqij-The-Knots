@@ -41,7 +41,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px 0 50px;
+    padding: 0 20px 0 50px;
     border-bottom: #000 3px solid;
 }
 
@@ -51,9 +51,9 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 1.5rem;
+    margin: 0 2.5rem;
     font-size: 3rem;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.3rem;
 }
 
 nav ul li a{
@@ -67,6 +67,15 @@ nav a:hover {
 
 .active {
     border: 1px solid #000;
+}
+
+/* Hamburger menu */
+
+nav .menu-botton i{
+    color: #000;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
 }
 
 #click {
@@ -103,7 +112,7 @@ aside > img {
     background-color: rgba(255, 255, 255, 0.5);
 
     position: absolute;
-    top: 50rem;
+    top: 40rem;
     right: 11rem;
     float: right;
 
@@ -160,38 +169,33 @@ p {
     width: 25rem;
     height: auto;
     float: left;
-    padding-right: 2rem;
+    padding: 1rem 1rem 0 0;
 }
 
 .wall-hanging2 {
     width: 25rem;
     height: auto;
     float: right;
+    padding: 1rem 0 0 1rem;
 }
 
 .wall-hanging1 {
     width: 25rem;
     height: auto;
     float: left;
-    padding-right: 2rem;
+    padding: 1rem 1rem 0 0;
 }
 
 .macrame-wings {
     width: 25rem;
     height: auto;
     float: right;
+    padding: 1rem 0 0 1rem;
 }
 
 #images:hover {
 	transform: scale(1.05);
 	transition: .5s transform;
-}
-
-nav .menu-botton i{
-    color: #000;
-    font-size: 3rem;
-    cursor: pointer;
-    display: none;
 }
 
 /* Form */
@@ -257,7 +261,7 @@ input[type=submit] {
     padding: 10px;
     background-color: transparent;
     position: absolute;
-    top: 292rem;
+    top: 284rem;
     right: 20rem;
     float: right;
     
