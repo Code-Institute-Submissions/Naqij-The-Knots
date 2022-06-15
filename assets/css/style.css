@@ -215,7 +215,7 @@ h4 {
     position: relative;
     margin-top: 20px;
 
-    border: none
+    border: none;
 }
 
 .form-section h3 {
@@ -255,24 +255,14 @@ input[type=submit] {
     border: 1px #000 solid;
   }
 
-.macrame6 {   
-    width: 35rem;
-    height: 27rem;
-    padding: 10px;
-    background-color: transparent;
-    position: absolute;
-    top: 284rem;
-    right: 20rem;
-    float: right;
-    
-}
-
-.macrame6 img {
-    width: 45rem;
-    height: auto;
+  iframe {
+    width: 40%;
+    height: 30rem;
     position: absolute;    
-    right: 5rem;   
-    float: right;
+    right: 6rem;
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
 }
 
 /* Footer */
@@ -353,5 +343,15 @@ footer {
 
     nav .menu-botton i{
         display: block;
+    }
+
+    iframe {
+        width: 40%;
+        height: 30rem;
+        position: absolute;    
+        right: 6rem;
+        display: flex;
+        justify-self: flex-end;
+        align-self: flex-end;
     }
 }
