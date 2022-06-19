@@ -80,3 +80,10 @@ Here is a full responsive website on mostly used devices.
 * I expect all navigation links to work correctly.
 * I expect screen size not to affect the quality of the website.
 * I expect all information to be correct and accurate.
+
+
+## Design Choices
+
+### Fonts
+In order site more appealing I have used the 
+[Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website. For the main "The Knots" I have used [Beau Rivage](https://fonts.google.com/specimen/Beau-Rivage?query=mon "Beau Rivage Font") as I believe it needed to look different than the rest of the website but not too different that it starts looking weird. For the main text I have chosen [Roboto Flex](https://fonts.google.com/specimen/Roboto-Flex?query=mon "Roboto Flex Font") as I feel it has a sharp, simple and easy to read look. To make the headers stand out form the text, I decided to use [Roboto Condensed](https://fonts.google.com/specimen/Roboto-Condensed?query=rob "Roboto Condensed Font") and to make the Navigation bar stand out I decided to use [Roboto](https://fonts.google.com/specimen/Roboto?query=rob "Roboto Font").
