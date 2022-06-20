@@ -34,7 +34,7 @@ Here is a full responsive website on mostly used devices.
         * [Tools and Libraries](#tools-and-libraries)
     * [Testing](#testing)
         * [Unfixed Bugs](#unfixed-bugs)
-    * [Deployment](#deployment)
+    * [Formation](#formation)
     * [Credits](#credits)
 
 # UX
@@ -141,3 +141,103 @@ It also include useful links for user to navigate around the web for additional 
     ![Contact Page](assets/wireframe/Contact-page.PNG)
 
 + The text fields are all required fields and will not allow the user to submit until they have completed. There is also a hover effect on the submit button to give the user feedback that it is an active button.
+
+
+### Footer
+
++ The footer contains the social media links related to Macramé pages. These social links all open in a new tab for ease of use to the user.
+
+    ![Contact Section](assets/wireframe/Social-media-icons.PNG)
+
++ There is also a hover effect over the links to improve user experiance.
+
+
+## Features to be Added
+
++ Add a shop if someone is interested to purchased Macramé products.
++ Add a wish-list for buyers.
+
+
+# Technologies used
+
+## Languages that I used
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
+## Libraries & Framework
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Photoshop](https://en.wikipedia.org/wiki/Adobe_Photoshop "Photoshop")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+
+
+# Testing
+
+I feel that the site has hit the goals are required by everyone. The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes with no blank spaces. It allows the user to navigate around easily and also make contact via the contact form or social media. The content is simple and to the point and the site is not overcrowded.
+\
+&nbsp;
+
+I have encountered several issues during testing. 
+ + The side container which contains the logo and The Knots text gave me few issues but after doing some research I fixed those issues.
+
+ + In my wireframes, I had designed the header with 2 3px line going across and in between there will be buttons and logo but after trying several thing I decided to leave the upper 3px line out and use just the bottom line instead.
+
+ + I found that I was repeating alot of code in my style.css file in order to center items. I created a class to do this and then applied it when needed.
+
+ + When I was validating HTML code, I had one error showing. This was in the contact form where I had forgoten to add FOR attribute but after going through the code several times I figured out the issue and it worked perfectly at the end.
+
+ ## Unfixed Codes
+
+ I wanted to nav bar to be fixed on top of the page but upon trying this the welcome image and the logo/The Knots section wouldn't go behind the nav bar and instead it would stick on top on that.
+ I managed to fix the display picture but the Logo/The Knots would still be on top of the nav bar when scrolling down.
+ To overcome this issue or get around this issue I decided to add "go back to top" button.
+
+ ![Top Button](assets/wireframe/Top-button.PNG)
+
+ When the user clicks on this icon the website will automatically scrolls back to top on the website.
+ 
+ # formation
+
+Following writing the code then commiting and pushing to GitHub, this project was formed using GitHub by the following steps.
+
++ Navigate to the repository on github and click 'Settings'.
++ Then select 'Pages' on the side navigation.
++ Select the 'None' dropdown, and then click 'master'.
++ Click on the 'Save' button.
++ Now the website is live on https://naqij.github.io/The-Knots/
++ If any changes are required or made they can be done by committing and push to GitHub and the changes will be updated.
+
+
+# Credits
+
+I would like to thanks.
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+* [Kenan Wright]()
+
+For code insperation, help, advice and encouragment.
+
+&nbsp;
+
+For content and style insperation,
+
+I used my wife's (Daima Zainab) thesis on Macramé and Celtic art.
+* [Instagram page of Daima Zainab](http://instagram.com/daimaaaz_?igshid=YmMyMTA2M2Y= "Instagram page of Daima Zainab")
+
+
+&nbsp;
+
+For code insperation I have also looked into the Love running project to see which way the code reacted if changed into certein way and then applied the same on my webpage.
+
+I have also used https://www.w3schools.com/ for code insperation and testing the code before using on my website.
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
