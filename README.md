@@ -13,7 +13,7 @@ Here is a full responsive website on mostly used devices.
 * [UX](#ux "UX")
     * [User Goals](#user-goals)
     * [User Inputs](#user-inputs)
-    * [Owners Goals](#owners-goals)
+    * [Owner Goals](#owners-goals)
     * [Requirements](#requirements)
     * [Expectations](#expectations)
     * [Design Choices](#design-choices)
@@ -30,7 +30,7 @@ Here is a full responsive website on mostly used devices.
         * [Features to be Added](#features-to-be-added)
     * [Languages and Websites used](#languages-and-websites-used)
         * [Languages that I used](#languages-that-i-used)
-        * [Libraries & Framework](#libraries-&-Framework)
+        * [Libraries and Framework](#libraries-and-framework)
         * [Tools](#tools)
     * [Testing](#testing)
         * [Unfixed Codes](#unfixed-codes)
@@ -49,7 +49,7 @@ Here is a full responsive website on mostly used devices.
 * Location of the office.
 
 
-## User Goals
+## User Inputs
 
 * As a user I want the website to give me information about what methods or techniques are required to create Macramé products.
 * As a user I want to be able to easily contact the website owner for additional information.
@@ -166,7 +166,7 @@ It also include useful links for user to navigate around the web for additional 
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
-## Libraries & Framework
+## Libraries and Framework
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 ## Tools
