@@ -11,8 +11,8 @@ Here is a full responsive website on mostly used devices.
 
 # Table of Contents
 * [UX](#ux "UX")
-    * [User Goals](#user-goals "User Goals")
-    * [User Stories](#user-stories "User Stories")
+    * [User Goals](#user-goals)
+    * [User Inputs](#user-inputs)
     * [Owners Goals](#owners-goals)
     * [Requirements](#requirements)
     * [Expectations](#expectations)
