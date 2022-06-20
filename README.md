@@ -13,27 +13,27 @@ Here is a full responsive website on mostly used devices.
 * [UX](#ux "UX")
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
-    * [Site Owners Goals](#site-owners-goals)
-    * [User Requirements and Expectations](#user-requirements-and-expectations)
-         * [Requirements](#requirements)
-         * [Expectations](#expectations)
-     * [Design Choices](#design-choices)
+    * [Owners Goals](#owners-goals)
+    * [Requirements](#requirements)
+    * [Expectations](#expectations)
+    * [Design Choices](#design-choices)
         * [Fonts](#fonts)
         * [Icons](#icons)
     * [Wireframes](#wireframes)
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Navigation Bar](#navigation-bar)
-            * [Landing Page](#landing-page)
+            * [Welcome Page](#welcome-page)
             * [About Page](#about-page)
             * [Contact Page](#contact-section)
             * [Footer](#footer)
-        * [Features to be implemented](#features-to-be-implemented)
-    * [Technologies used](#technologies-used)
-        * [Languages](#languages)
-        * [Tools and Libraries](#tools-and-libraries)
+        * [Features to be Added](#features-to-be-added)
+    * [Languages and Websites used](#languages-and-websites-used)
+        * [Languages that I used](#languages-that-i-used)
+        * [Libraries & Framework](#libraries-&-Framework)
+        * [Tools](#tools)
     * [Testing](#testing)
-        * [Unfixed Bugs](#unfixed-bugs)
+        * [Unfixed Codes](#unfixed-codes)
     * [Formation](#formation)
     * [Credits](#credits)
 
@@ -128,6 +128,8 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     ![Welcome Page](assets/wireframe/Welcome-page.PNG)
 
 
+### About page
+
 + The about page gives a brief description of what is Macramé and it's history behind.
 It also include useful links for user to navigate around the web for additional information. 
 
@@ -158,7 +160,7 @@ It also include useful links for user to navigate around the web for additional 
 + Add a wish-list for buyers.
 
 
-# Technologies used
+# Languages and Websites used
 
 ## Languages that I used
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
