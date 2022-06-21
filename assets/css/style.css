@@ -206,7 +206,7 @@ h4 {
 .contact-us {
     color: rgb(0, 0, 0);
     background-color: none;
-    width: 40rem;    
+    width: 40%;    
     padding: 30px;
     position: relative;
     margin-top: 20px;
@@ -320,7 +320,11 @@ footer {
 
     #container {   
         left: 0;    
-    }    
+    }   
+    
+    .contact-us {
+        width: 60%;    
+    }
 
     iframe {
         width: 90%;
