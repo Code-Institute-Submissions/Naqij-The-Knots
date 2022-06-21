@@ -1,16 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100&display=swap');
 
-/* font style for "The knots" Beau Rivage */
-
-/* font style for the "nav" Roboto*/
-
-/* font style for the "heading" Roboto Condensed */
-
-/* font style for the "paragraph etc" Roboto Flex */
-
 html {
     font-size: 10px;
     scroll-behavior: smooth;
+    scroll-padding-top: 8.5rem;
 }
 
 * {
@@ -29,6 +22,7 @@ body {
 nav #logo {
     width: 5rem;
     height: auto;
+    margin-left: 3rem;
 }
 
 nav {
@@ -36,9 +30,12 @@ nav {
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 20px 0 50px;
-    border-bottom: #000 3px solid;
+    justify-content: space-between;    
+    border-bottom: #000 3px solid;    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999999999999;
 }
 
 nav ul {
@@ -72,6 +69,7 @@ nav .menu-button i{
     font-size: 3rem;
     cursor: pointer;
     display: none;
+    margin-right: 3rem;
 }
 
 #click {
@@ -88,6 +86,7 @@ nav .menu-button i{
     position: relative;
     display: flex;
     overflow: hidden;
+    top: 10rem;
 }
 
 aside > img {
@@ -257,7 +256,8 @@ input[type=submit] {
     height: 35rem;
     position: absolute;    
     right: 10rem;
-    margin-top: 240px;  
+    margin-top: 240px; 
+    border: #000 1px solid;
 }
 
 .gotopbutton {
