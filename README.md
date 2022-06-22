@@ -1,4 +1,4 @@
-![Logo](assets/wireframe/logo.jpg)
+![Logo](doc/wireframes/logo.jpg)
 
 # The Knots (Macramé)
 
@@ -7,7 +7,7 @@ Welcome to The Knots (Macramé). Here you will find all the useful information a
 
 Here is a full responsive website on mostly used devices.
 
-![Responsive Displays](assets/wireframe/Responsive-web-page.PNG)
+![Responsive Displays](doc/wireframes/Responsive-web-page.PNG)
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -30,7 +30,6 @@ Here is a full responsive website on mostly used devices.
         * [Features to be Added](#features-to-be-added)
     * [Languages and Websites used](#languages-and-websites-used)
         * [Languages that I used](#languages-that-i-used)
-        * [Libraries and Framework](#libraries-and-framework)
         * [Tools](#tools)
     * [Testing](#testing)
         * [Unfixed Codes](#unfixed-codes)
@@ -90,7 +89,23 @@ I have used icons for my website from the [Font Awesome library](https://fontawe
 
 
 # Wireframes
-I have used Photoshop to develop my wireframes for my website. I initially created the desktop version first and then scalled it down for tablet and smart phones. Because a requirement is to give little but quality information to the user to make them want to engage with the site. I have used a one-page website. This gets the user through the content and quickly via scrolling or directly clicking the navigation bar.
+I have used Photoshop to develop wireframes for my website. I initially created the desktop version first and then scalled it down for tablet and smart phones. Because a requirement is to give little but quality information to the user to make them want to engage with the site. My original idea was to create 4 page website but after discussing this with my mentor I decided to go for one-page website. This gets the user through the content easier and quickly via scrolling or directly clicking the navigation bar.
+
+**Wireframe Home Page**
+
+![Wireframe Home](doc/wireframes/home.jpg)
+
+**Wireframe About Page**
+
+![Wireframe About](doc/wireframes/about.jpg)
+
+**Wireframe Gallery Page**
+
+![Wireframe Gallery](doc/wireframes/gallery.jpg)
+
+**Wireframe Contact Page**
+
+![Wireframe Contact](doc/wireframes/contact-us.jpg)
 
 
 # Features
@@ -104,7 +119,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 + Desktop (>=950px)
 
 
-    ![Navigation bar](assets/wireframe/nav-bar.PNG)
+    ![Navigation bar](doc/wireframes/nav-bar.PNG)
 
     In order for the user to visably see which of the links they are hovering over there is a rectangular border around the text.
 
@@ -113,11 +128,11 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     - As the navigation bar would be unuseable in the desktop version on smaller devices, it takes on a hamburger style.
 
 
-    ![Nav bar on small devices](assets/wireframe/nav-bar-small.PNG)
+    ![Nav bar on small devices](doc/wireframes/nav-bar-small.PNG)
 
     When the hamburger icon is clicked it will slide in the nav bar below the website logo.
 
-   ![Nav bar on small devices](assets/wireframe/nav-bar-small-open.PNG)
+   ![Nav bar on small devices](doc/wireframes/nav-bar-small-open.PNG)
 
    ### Welcome Page
 
@@ -125,7 +140,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 + The welcome page gives a brief idea to the user on what Macramé is and who is welcome.
 
-    ![Welcome Page](assets/wireframe/Welcome-page.PNG)
+    ![Welcome Page](doc/wireframes/Welcome-page.PNG)
 
 
 ### About page
@@ -133,14 +148,14 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 + The about page gives a brief description of what is Macramé and it's history behind.
 It also include useful links for user to navigate around the web for additional information. 
 
-    ![About Page](assets/wireframe/About-page.PNG)
+    ![About Page](doc/wireframes/About-page.PNG)
 
 
 ### Contact Section
 
 + The contact section allows the user to quickly send a message to the site owner. it also has a map of the location of where it is based.
 
-    ![Contact Page](assets/wireframe/Contact-page.PNG)
+    ![Contact Page](doc/wireframes/Contact-page.PNG)
 
 + The text fields are all required fields and will not allow the user to submit until they have completed. There is also a hover effect on the submit button to give the user feedback that it is an active button.
 
@@ -149,7 +164,7 @@ It also include useful links for user to navigate around the web for additional 
 
 + The footer contains the social media links related to Macramé pages. These social links all open in a new tab for ease of use to the user.
 
-    ![Contact Section](assets/wireframe/Social-media-icons.PNG)
+    ![Contact Section](doc/wireframes/Social-media-icons.PNG)
 
 + There is also a hover effect over the links to improve user experiance.
 
@@ -166,9 +181,6 @@ It also include useful links for user to navigate around the web for additional 
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
-## Libraries and Framework
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 ## Tools
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Photoshop](https://en.wikipedia.org/wiki/Adobe_Photoshop "Photoshop")
@@ -191,17 +203,10 @@ I have encountered several issues during testing.
 
  + I found that I was repeating alot of code in my style.css file in order to center items. I created a class to do this and then applied it when needed.
 
- + When I was validating HTML code, I had one error showing. This was in the contact form where I had forgoten to add FOR attribute but after going through the code several times I figured out the issue and it worked perfectly at the end.
 
- ## Unfixed Codes
+ ![Top Button](doc/wireframes/Top-button.PNG)
 
- I wanted to nav bar to be fixed on top of the page but upon trying this the welcome image and the logo/The Knots section wouldn't go behind the nav bar and instead it would stick on top on that.
- I managed to fix the display picture but the Logo/The Knots would still be on top of the nav bar when scrolling down.
- To overcome this issue or get around this issue I decided to add "go back to top" button.
-
- ![Top Button](assets/wireframe/Top-button.PNG)
-
- When the user clicks on this icon the website will automatically scrolls back to top on the website.
+ When the user clicks on this icon the website will automatically scrolls back to top of the website.
  
  # formation
 
@@ -211,7 +216,7 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + Then select 'Pages' on the side navigation.
 + Select the 'None' dropdown, and then click 'master'.
 + Click on the 'Save' button.
-+ Now the website is live on https://naqij.github.io/The-Knots/
++ Now the website is live on [https://naqij.github.io/The-Knots/]
 + If any changes are required or made they can be done by committing and push to GitHub and the changes will be updated.
 
 
@@ -219,7 +224,8 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 
 I would like to thanks.
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
-* [Kenan Wright]()
+
+And **Kenan Wright**
 
 For code insperation, help, advice and encouragment.
 
@@ -235,7 +241,7 @@ I used my wife's (Daima Zainab) thesis on Macramé and Celtic art.
 
 For code insperation I have also looked into the Love running project to see which way the code reacted if changed into certein way and then applied the same on my webpage.
 
-I have also used https://www.w3schools.com/ for code insperation and testing the code before using on my website.
+I have also used [https://www.w3schools.com/] for code insperation and testing the code before using on my website.
 
 
 \
