@@ -146,6 +146,7 @@ h3 {
 p {
     font-family: Roboto Flex, sans-serif;
     font-size: 2rem;
+    line-height: 3rem;
 }
 
 #material {
@@ -176,11 +177,25 @@ p {
     padding: 1rem 1rem 0 0;
 }
 
+.macrame-furniture {
+    width: 25rem;
+    height: auto;
+    float: right;
+    padding: 1rem 0 0 1rem;
+}
+
 .macrame-wings {
     width: 25rem;
     height: auto;
     float: right;
     padding: 1rem 0 0 1rem;
+}
+
+.macrame-thread {
+    width: 25rem;
+    height: auto;
+    float: left;
+    padding: 1rem 1rem 0 0;
 }
 
 #images:hover {
