@@ -11,12 +11,11 @@ html {
     padding: 0;
     border: none;
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
 }
 
 body {
     font-family: Beau Rivage, sans-serif;
-    font-weight: 3rem;
 }
 
 nav #logo {
@@ -82,7 +81,6 @@ nav .menu-button i{
 #start-box {
     width: 90rem;
     margin: 50px 0 50px 0;
-    background-color: none; 
     position: relative;
     display: flex;
     overflow: hidden;
@@ -150,7 +148,7 @@ p {
 }
 
 #material {
-    text-decoration: none underline;
+    text-decoration: underline;
     color: inherit;
 }
 
@@ -219,7 +217,6 @@ h4 {
 
 .contact-us {
     color: rgb(0, 0, 0);
-    background-color: none;
     width: 40%;    
     padding: 30px;
     position: relative;
