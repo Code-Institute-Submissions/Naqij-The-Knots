@@ -196,7 +196,7 @@ p {
     padding: 1rem 1rem 0 0;
 }
 
-#images:hover {
+.images:hover {
 	transform: scale(1.05);
 	transition: .5s transform;
 }
