@@ -34,6 +34,8 @@ Here is a full responsive website on mostly used devices.
     * [Testing](#testing)
         * [Unfixed Codes](#unfixed-codes)
     * [Formation](#formation)
+    * [Validation](#validation)
+    * [Lighthouse](#lighthouse)
     * [Credits](#credits)
 
 # UX
@@ -207,6 +209,20 @@ I have encountered several issues during testing.
  ![Top Button](doc/wireframes/Top-button.PNG)
 
  When the user clicks on this icon the website will automatically scrolls back to top of the website.
+
+ ## Validation
+
+ I have validated my project with the [W3C Validator](https://www.w3.org/ "HTML and CSS")
+
+Below are the validation images.
+
+![HTML snd CSS](doc/validation/HTML-CSS-validation.jpg)
+
+
+## Lighthouse
+
+![Lighthouse](doc/validation/lighthouse.PNG)
+
  
  # formation
 
